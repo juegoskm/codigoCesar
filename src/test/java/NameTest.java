@@ -10,7 +10,16 @@ public class NameTest {
         this.name = new Name("Cesar");
     }
     @Test
-    public void methodReturn1(){
+    public void methodRetornar(){
         assertEquals(5,this.name.methodRetornar() );
     }
+    @Test
+    public void methodRevez(){
+        assertEquals("raseC",this.name.methodRevez());
+    }
+    @Test
+    public void methodMayusculas(){
+        assertEquals("CESAR", this.name.methodMayusculas());
+    }
+
 }

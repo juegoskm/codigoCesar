@@ -25,4 +25,8 @@ public class Name {
         }
         return methodRevez;
     }
+    public String methodMayusculas(){
+        String methodMayusculas = name.toUpperCase();
+        return methodMayusculas;
+    }
 }

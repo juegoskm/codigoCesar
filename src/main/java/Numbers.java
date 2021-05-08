@@ -31,5 +31,10 @@ public class Numbers {
         resta = NumberOne - NumberTwo;
         return resta;
     }
+    public int multiplicacion(){
+        int multiplicacion;
+        multiplicacion = NumberOne * NumberTwo;
+        return multiplicacion;
+    }
 }
 

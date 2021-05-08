@@ -26,5 +26,10 @@ public class Numbers {
         suma = NumberOne + NumberTwo;
         return suma;
     }
+    public int resta(){
+        int resta;
+        resta = NumberOne - NumberTwo;
+        return resta;
+    }
 }
 

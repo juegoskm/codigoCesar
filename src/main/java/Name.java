@@ -18,4 +18,11 @@ public class Name {
         int count = name.length();
         return count;
     }
+    public String methodRevez(){
+        String methodRevez = "";
+        for(int i= name.length() - 1; i>=0; i--){
+            methodRevez += name.charAt(i);
+        }
+        return methodRevez;
+    }
 }

@@ -16,4 +16,8 @@ public class NumbersTest {
     public void addition() {
         assertEquals(16, this.numbers.suma());
     }
+    @Test
+    public void substr() {
+        assertEquals(4, this.numbers.resta());
+    }
 }

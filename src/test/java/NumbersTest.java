@@ -13,11 +13,15 @@ public class NumbersTest {
     }
 
     @Test
-    public void addition() {
+    public void suma() {
         assertEquals(16, this.numbers.suma());
     }
     @Test
-    public void substr() {
+    public void resta() {
         assertEquals(4, this.numbers.resta());
+    }
+    @Test
+    public void multiplicacion() {
+        assertEquals(60, this.numbers.multiplicacion());
     }
 }

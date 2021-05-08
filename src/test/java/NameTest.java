@@ -17,4 +17,9 @@ public class NameTest {
     public void methodRevez(){
         assertEquals("raseC",this.name.methodRevez());
     }
+    @Test
+    public void methodMayusculas(){
+        assertEquals("CESAR", this.name.methodMayusculas());
+    }
+
 }
